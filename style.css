@@ -1,0 +1,191 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #0f2838;
+  color: #9DA7AE;
+  padding: 5px;
+  
+}
+
+.main {
+  border-style: solid;
+  border-color: #9DA7AE;
+  border-width: 2px;
+  margin: 30px 400px;
+}
+
+/* text styles */
+
+h1,
+h2,
+h3 {
+  margin: 5px 20px 0;
+}
+
+h3 {
+  font-size: 18pt;
+}
+
+h4 {
+  margin: 0;
+  text-align: right;
+}
+
+a {
+  color: #9DA7AE;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* nav bar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #9DA7AE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #3B505E;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #293a45;
+  text-decoration: none;
+}
+
+li {
+  float: right;
+}
+
+li button {
+  display: block;
+  color: #9DA7AE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #3B505E;
+  font-size: 16px;
+  font-weight: bold;
+  border-style: hidden;
+
+}
+
+li button:hover {
+  background-color: #293a45;
+  text-decoration: none;
+}
+
+/* div classes */
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.area1 {
+  width: 55%;
+  float: left;
+}
+
+.area2 {
+  width: 45%;
+  float: left;
+}
+
+.interests {
+  margin: 5px 20px 0;
+  padding: 5px 16px;
+  border-style: solid;
+  border-color: #4e616e;
+  border-width: 2px;
+  background-color: #263B46;
+}
+
+.workHistory {
+    margin: 5px 20px 0;
+    padding: 5px 16px;
+    border-style: solid;
+    border-color: #6a537756;
+    border-width: 2px;
+    background-color: #3926464d;
+  }
+
+.likes {
+  margin: 5px 20px 15px;
+  padding: 5px 16px;
+  border-style: solid;
+  border-color: #526b51;
+  border-width: 2px;
+  background-color: #233C3F;
+}
+
+.dislikes {
+  margin: 5px 20px 15px;
+  padding: 5px 16px;
+  border-style: solid;
+  border-color: #202E37;
+  border-width: 2px;
+  background-color: #1B2C37;
+}
+
+.footer {
+  width: 100%;
+  background-color: #2D4351;
+}
+
+
+
+/* element classes */
+
+.underConstruction {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.underConstruction img {
+  margin: 20px 15px 0px;
+  width: 55%;
+  height: 100%;
+  opacity: 90%;
+}
+
+.gallery {
+  width: 30%;
+  padding: 5px
+
+}
+
+
+
+/* div ids */
+
+
+
+
+
+
+
+
+
